@@ -1,7 +1,24 @@
-.root {
-  font-family: Menlo, Consolas, monospace;
+.app {
+  text-align: center;
 }
 
-.hello {
-  color: rgba(0, 0, 200, 0.75);
+.logo {
+  animation: logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.intro {
+  font-size: large;
+}
+
+@keyframes logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
 }
